@@ -1,0 +1,10 @@
+C:\Documents and Settings\Baconz\My Documents\Visual Studio 2005\Projects\tailsgetstrolled\tails gets trolled the game\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Baconz\My Documents\Visual Studio 2005\Projects\tailsgetstrolled\tails gets trolled the game\obj\Debug\tails_gets_trolled_the_game.Form1.resources
+C:\Documents and Settings\Baconz\My Documents\Visual Studio 2005\Projects\tailsgetstrolled\tails gets trolled the game\obj\Debug\tails_gets_trolled_the_game.Resources.resources
+C:\Documents and Settings\Baconz\My Documents\Visual Studio 2005\Projects\tailsgetstrolled\tails gets trolled the game\obj\Debug\tails gets trolled the game.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Baconz\My Documents\Visual Studio 2005\Projects\tailsgetstrolled\tails gets trolled the game\bin\Debug\tails gets trolled the game.exe
+C:\Documents and Settings\Baconz\My Documents\Visual Studio 2005\Projects\tailsgetstrolled\tails gets trolled the game\bin\Debug\tails gets trolled the game.pdb
+C:\Documents and Settings\Baconz\My Documents\Visual Studio 2005\Projects\tailsgetstrolled\tails gets trolled the game\bin\Debug\tails gets trolled the game.xml
+C:\Documents and Settings\Baconz\My Documents\Visual Studio 2005\Projects\tailsgetstrolled\tails gets trolled the game\obj\Debug\tails gets trolled the game.exe
+C:\Documents and Settings\Baconz\My Documents\Visual Studio 2005\Projects\tailsgetstrolled\tails gets trolled the game\obj\Debug\tails gets trolled the game.xml
+C:\Documents and Settings\Baconz\My Documents\Visual Studio 2005\Projects\tailsgetstrolled\tails gets trolled the game\obj\Debug\tails gets trolled the game.pdb
