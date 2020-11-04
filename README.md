@@ -14,6 +14,6 @@ and running windows 10 in a vm is like a death sentence for my pc, and since vs2
 
 
 # to compile, or to not compile
-to compile, you'll need a working copy of visual studio (i asked someone and they said it worked in vs2019, so it *should* work for you)
+to compile, you'll need a working copy of visual studio (i asked someone and they said it worked in vs2019, so it *should* work in most versions maybe)
 
 git clone the project, then open the .sln and click build>build solution, you'll have an exe in the bin folder. pre-compiled binaries are in the bin folder.
