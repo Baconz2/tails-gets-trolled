@@ -11,6 +11,7 @@
     <RootNamespace>tails_gets_trolled_the_game</RootNamespace>
     <AssemblyName>tails gets trolled the game</AssemblyName>
     <MyType>WindowsForms</MyType>
+    <ApplicationIcon>you were right.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -100,6 +101,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\youwasright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="you were right.ico" />
+    <Content Include="youwereright.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
