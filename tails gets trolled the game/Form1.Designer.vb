@@ -19,6 +19,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox
         Me.Button1 = New System.Windows.Forms.Button
@@ -29,6 +30,7 @@ Partial Class Form1
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.Label2 = New System.Windows.Forms.Label
         Me.scoreboard = New System.Windows.Forms.Label
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -44,7 +46,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(213, 358)
+        Me.Button1.Location = New System.Drawing.Point(181, 358)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 1
@@ -56,9 +58,9 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(29, 363)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(114, 13)
+        Me.Label1.Size = New System.Drawing.Size(137, 13)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "tails hasn't been trolled"
+        Me.Label1.Text = "tails hasn't been trolled.. yet"
         '
         'MenuStrip1
         '
@@ -79,13 +81,13 @@ Partial Class Form1
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'Label2
@@ -100,11 +102,15 @@ Partial Class Form1
         'scoreboard
         '
         Me.scoreboard.AutoSize = True
-        Me.scoreboard.Location = New System.Drawing.Point(349, 363)
+        Me.scoreboard.Location = New System.Drawing.Point(348, 363)
         Me.scoreboard.Name = "scoreboard"
         Me.scoreboard.Size = New System.Drawing.Size(13, 13)
         Me.scoreboard.TabIndex = 5
         Me.scoreboard.Text = "0"
+        '
+        'Timer1
+        '
+        Me.Timer1.Interval = 1000
         '
         'Form1
         '
@@ -119,6 +125,8 @@ Partial Class Form1
         Me.Controls.Add(Me.MenuStrip1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.MaximumSize = New System.Drawing.Size(466, 427)
+        Me.MinimumSize = New System.Drawing.Size(466, 427)
         Me.Name = "Form1"
         Me.Text = "tails gets trolled: the game"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -137,5 +145,6 @@ Partial Class Form1
     Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents scoreboard As System.Windows.Forms.Label
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
 
 End Class
