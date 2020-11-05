@@ -9,7 +9,7 @@ Public Class Form1
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripMenuItem.Click
-        MsgBox("a program made by Baconz in her spare time.", MsgBoxStyle.Information, "Copywrong 2020") ' displays program info in a nice message box
+        MsgBox("a program made by Baconz in her spare time, alongside her group, wheeze.", MsgBoxStyle.Information, "Copywrong 2020") ' displays program info in a nice message box
     End Sub
 
     Private Sub ExitToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ExitToolStripMenuItem.Click
