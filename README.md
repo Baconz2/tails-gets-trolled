@@ -7,7 +7,7 @@ basically to learn how to use visual basic, visual studio and .net
 
 
 ### why not just use visual studio 2019 lol
-i use linux, and it doesn't exactly work well in wine
+i use linux, and it doesn't exactly work in wine (see [this](https://appdb.winehq.org/objectManager.php?sClass=version&iId=38520))
 
 and running windows 10 in a vm is like a death sentence for my pc, and since vs2005 works in xp, i used that
 
