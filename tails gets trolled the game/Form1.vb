@@ -1,5 +1,4 @@
 Public Class Form1
-
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         Static hits As Integer ' sets up the scoreboard
         PictureBox1.Image = My.Resources.tailsgetstrolled ' changes the picture
@@ -9,10 +8,17 @@ Public Class Form1
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripMenuItem.Click
-        MsgBox("a program made by Baconz in her spare time, alongside her group, wheeze.", MsgBoxStyle.Information, "Copywrong 2020") ' displays program info in a nice message box
+        Dim about = New AboutBox1()
+        about.Show()
     End Sub
 
     Private Sub ExitToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ExitToolStripMenuItem.Click
         End ' exits the program
+    End Sub
+
+    Private Sub scoreboard_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles scoreboard.Click
+        Static hits As Integer
+        hits += 255
+        scoreboard.Text = hits.ToString("n0")
     End Sub
 End Class

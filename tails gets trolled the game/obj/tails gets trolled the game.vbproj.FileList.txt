@@ -1,0 +1,22 @@
+obj\Debug\tails gets trolled the game.exe
+obj\Debug\tails gets trolled the game.xml
+obj\Debug\tails gets trolled the game.pdb
+bin\Debug\tails gets trolled the game.exe
+bin\Debug\tails gets trolled the game.pdb
+bin\Debug\tails gets trolled the game.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\tails_gets_trolled_the_game.Form1.resources
+obj\Debug\tails_gets_trolled_the_game.Resources.resources
+obj\Debug\tails gets trolled the game.vbproj.GenerateResource.Cache
+bin\Release\tails gets trolled the game.exe
+bin\Release\tails gets trolled the game.pdb
+bin\Release\tails gets trolled the game.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\tails_gets_trolled_the_game.AboutBox1.resources
+obj\Release\tails_gets_trolled_the_game.Form1.resources
+obj\Release\tails_gets_trolled_the_game.Resources.resources
+obj\Release\tails gets trolled the game.vbproj.GenerateResource.Cache
+obj\Release\tails gets trolled the game.exe
+obj\Release\tails gets trolled the game.xml
+obj\Release\tails gets trolled the game.pdb
+obj\Debug\tails_gets_trolled_the_game.AboutBox1.resources
