@@ -31,6 +31,9 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label
         Me.scoreboard = New System.Windows.Forms.Label
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.TimerLB = New System.Windows.Forms.Label
+        Me.Label3 = New System.Windows.Forms.Label
+        Me.ResetTimerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -73,7 +76,7 @@ Partial Class Form1
         '
         'FileToolStripMenuItem
         '
-        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutToolStripMenuItem, Me.ExitToolStripMenuItem})
+        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutToolStripMenuItem, Me.ResetTimerToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
         Me.FileToolStripMenuItem.Size = New System.Drawing.Size(35, 20)
         Me.FileToolStripMenuItem.Text = "File"
@@ -81,13 +84,13 @@ Partial Class Form1
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'Label2
@@ -112,11 +115,37 @@ Partial Class Form1
         '
         Me.Timer1.Interval = 1000
         '
+        'TimerLB
+        '
+        Me.TimerLB.AutoSize = True
+        Me.TimerLB.Location = New System.Drawing.Point(427, 363)
+        Me.TimerLB.Name = "TimerLB"
+        Me.TimerLB.Size = New System.Drawing.Size(19, 13)
+        Me.TimerLB.TabIndex = 6
+        Me.TimerLB.Text = "60"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(385, 363)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(36, 13)
+        Me.Label3.TabIndex = 7
+        Me.Label3.Text = "Timer:"
+        '
+        'ResetTimerToolStripMenuItem
+        '
+        Me.ResetTimerToolStripMenuItem.Name = "ResetTimerToolStripMenuItem"
+        Me.ResetTimerToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ResetTimerToolStripMenuItem.Text = "Reset"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(458, 393)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.TimerLB)
         Me.Controls.Add(Me.scoreboard)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -146,5 +175,8 @@ Partial Class Form1
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents scoreboard As System.Windows.Forms.Label
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
+    Friend WithEvents TimerLB As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents ResetTimerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class
