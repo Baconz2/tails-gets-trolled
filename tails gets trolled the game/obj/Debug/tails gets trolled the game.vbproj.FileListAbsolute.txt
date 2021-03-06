@@ -1,0 +1,12 @@
+C:\Users\Evyn\Documents\GitHub\tails-gets-trolled\tails gets trolled the game\bin\Debug\tails gets trolled the game.exe
+C:\Users\Evyn\Documents\GitHub\tails-gets-trolled\tails gets trolled the game\bin\Debug\tails gets trolled the game.pdb
+C:\Users\Evyn\Documents\GitHub\tails-gets-trolled\tails gets trolled the game\bin\Debug\tails gets trolled the game.xml
+C:\Users\Evyn\Documents\GitHub\tails-gets-trolled\tails gets trolled the game\obj\Debug\tails gets trolled the game.vbprojAssemblyReference.cache
+C:\Users\Evyn\Documents\GitHub\tails-gets-trolled\tails gets trolled the game\obj\Debug\tails_gets_trolled_the_game.AboutBox1.resources
+C:\Users\Evyn\Documents\GitHub\tails-gets-trolled\tails gets trolled the game\obj\Debug\tails_gets_trolled_the_game.Form1.resources
+C:\Users\Evyn\Documents\GitHub\tails-gets-trolled\tails gets trolled the game\obj\Debug\tails_gets_trolled_the_game.Resources.resources
+C:\Users\Evyn\Documents\GitHub\tails-gets-trolled\tails gets trolled the game\obj\Debug\tails gets trolled the game.vbproj.GenerateResource.cache
+C:\Users\Evyn\Documents\GitHub\tails-gets-trolled\tails gets trolled the game\obj\Debug\tails gets trolled the game.vbproj.CoreCompileInputs.cache
+C:\Users\Evyn\Documents\GitHub\tails-gets-trolled\tails gets trolled the game\obj\Debug\tails gets trolled the game.exe
+C:\Users\Evyn\Documents\GitHub\tails-gets-trolled\tails gets trolled the game\obj\Debug\tails gets trolled the game.xml
+C:\Users\Evyn\Documents\GitHub\tails-gets-trolled\tails gets trolled the game\obj\Debug\tails gets trolled the game.pdb
