@@ -10,3 +10,7 @@ basically to learn how to use visual basic, visual studio and .net
 to compile, you'll need a working copy of visual studio
 
 git clone the project, then open the .sln and click build>build solution, you'll have an exe in the bin folder. pre-compiled binaries are in the bin folder and under releases.
+
+# so why the new branch
+
+due to how old vs2005 is, trying to open the project files in vs2010 and up causes it to make irreversable changes to the solution, therefore making it unusable in older vs
