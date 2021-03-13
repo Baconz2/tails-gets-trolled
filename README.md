@@ -1,4 +1,5 @@
 # tails gets trolled: the game
+[![forthebadge](https://forthebadge.com/images/badges/designed-in-ms-paint.svg)](https://forthebadge.com)
 some dumb "game" i made in visual studio 2005
 
 
